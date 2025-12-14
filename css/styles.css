@@ -1,0 +1,163 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-webstudio {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2E2F42;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+.web-name {
+    color: #4D5AE5;
+}
+
+.navigation {
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.navigation .link {
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+    color: #404BBF;
+}
+
+.address {
+    font-style: normal
+}
+
+.address .link {
+    color: #434455;
+    font-style: normal;
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: #404BBF;
+}
+
+.order {
+    background-color: #2E2F42;
+}
+
+.order h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.order .button {
+    background-color: #4D5AE5;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.order .button:hover,
+.order .button:focus {
+    background-color: #404BBF;
+}
+
+.features h3 {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features p {
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.team h3 {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team p {
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team li {
+    background-color: #fff;
+}
+
+.portfolio h2 {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.portfolio h3 {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio p {
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #f4f4fd;
+}
+
+.footer .logo-webstudio {
+    color: #f4f4fd;
+}
+
+.footer p {
+    letter-spacing: 0.02em;
+}
