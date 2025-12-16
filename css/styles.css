@@ -14,7 +14,7 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
 }
 
 p,
@@ -29,6 +29,15 @@ h6 {
 
 a {
     text-decoration: none;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+    display: flex;
+    max-width: 1158px;
 }
 
 .logo-webstudio,
@@ -80,6 +89,11 @@ a {
     background-color: #2E2F42;
 }
 
+.container-order {
+    max-width: 1158px;
+    padding: 188px 0;
+}
+
 .order-title {
     color: #fff;
     text-align: center;
@@ -87,14 +101,26 @@ a {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .order-button {
-    background-color: #4D5AE5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;
+    border-color: transparent;
     color: #fff;
     cursor: pointer;
     font-weight: 500;
     letter-spacing: 0.04em;
+    white-space: nowrap;
+    padding: 16px 32px;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    display: block;
+    margin: 0 auto;
 }
 
 .order-button:hover,
@@ -116,6 +142,15 @@ a {
     overflow: hidden;
 }
 
+.container-features {
+    max-width: 1158px;
+}
+
+.features-list {
+    display: flex;
+    padding: 120px 0;
+}
+
 .features-item-title {
     color: #2E2F42;
     font-weight: 500;
@@ -132,6 +167,11 @@ a {
     background-color: #F4F4FD;
 }
 
+.container-team {
+    max-width: 1158px;
+    padding: 120px 0;
+}
+
 .team-title {
     color: #2E2F42;
     text-align: center;
@@ -139,6 +179,11 @@ a {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
 }
 
 .team-item-title {
@@ -156,7 +201,16 @@ a {
 }
 
 .team-item {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    height: 380px;
+}
+
+.container-portfolio {
+    max-width: 1158px;
+    padding: 120px 0;
 }
 
 .portfolio-title {
@@ -166,7 +220,9 @@ a {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 }
+
 
 .portfolio-item-title {
     color: #2E2F42;
@@ -182,7 +238,11 @@ a {
 
 .footer {
     background-color: #2E2F42;
+}
+
+.container-footer {
     color: #f4f4fd;
+    padding: 100px 0;
 }
 
 .footer-logo-webstudio {
