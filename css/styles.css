@@ -293,7 +293,6 @@ a {
 
 .portfolio-item {
     align-items: center;
-    max-width: calc((100% - 140x) / 6);
 }
 
 .portfolio-item-title {
